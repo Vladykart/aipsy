@@ -1,6 +1,8 @@
 import chainlit as cl
 from embedchain import App
 from embedchain.store.assistants import OpenAIAssistant
+import os
+
 
 from dotenv import load_dotenv
 
